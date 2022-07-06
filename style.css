@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&family=Karla:ital,wght@1,200&family=Merriweather:wght@300&family=Montserrat:ital,wght@1,100&family=Nunito+Sans:ital,wght@1,200&family=Nunito:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background: linear-gradient(to right,#93a5cf, #e4efe9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+#art{
+    padding: 20px;
+    background: #e4efe9;
+    border: 5px solid #9098ab;
+    margin: 40px;
+    font-size: 3em;
+}
+#title{
+    padding-top: 10px;
+    font-size: 4.5em;
+    margin: 15px;
+}
+#attemptLabel{
+    font-size: 2em;
+    border: 2px;
+    padding: 90px;
+}
+#textBox{
+    height: 7vh;
+    width: 7vw;
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+}
+#textLabel{
+    padding: 20px;
+}
+#checkButton{
+    font-size: 0.8em;
+}
+#img{
+    height: 40vh;
+    width: 20vw;
+    padding-left: 20px;
+}
+#artt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin:20px 0 0 200px;
+}
+#message{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+#heading{
+    font-size: 1em;
+}
+#win{
+    background-color: #adbed9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 170px;
+    font-family: 'Kanit', sans-serif;
+    justify-content: space-between;
+}
+#lose{
+    background-color: #adbed9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 160px;
+    font-family: 'Kanit', sans-serif;
+}
+#reset{
+    height: 10vh;
+    width: 10vw;
+    font-size: 0.5em;
+}
+#losee{
+    width: 15vw;
+    height: 20vh;
+    margin: 10px 0 10px 0;
+}
+#winn{
+    width: 15vw;
+    height: 20vh;
+    margin: 10px 0 20px 0;
+}
